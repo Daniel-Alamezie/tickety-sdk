@@ -1,0 +1,22 @@
+{
+  "name": "tickety-sdk",
+  "version": "0.0.1",
+  "description": "Tickety SDK for sending ticket from your front end to the back end.",
+  "main": "index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "keywords": ["typescript","tickety","ticketing systems","type safe"],
+  "homepage": "tickety.dev",
+  "repository": {
+    "url": "https://github.com/Daniel-Alamezie/tickety-sdk"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "danielalamezie",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  }
+}
