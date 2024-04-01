@@ -1,6 +1,6 @@
 {
   "name": "tickety-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tickety SDK for sending ticket from your front end to the back end.",
   "main": "index.js",
   "module": "./dist/index.mjs",

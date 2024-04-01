@@ -37,7 +37,7 @@ export default class Tickety {
   public async fetchMessage(authToken: string, options: { page?: number; pageSize?: number } = {}) {
     const { page = 1, pageSize = 10 } = options;
     try {
-      const response = await fetch(`http://localhost:3000/api/tickety/fetchMessage`, {
+      const response = await fetch(`https://www.tickety.dev/api/tickety/fetchMessage`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
