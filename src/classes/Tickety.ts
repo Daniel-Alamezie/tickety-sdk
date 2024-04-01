@@ -13,7 +13,7 @@ export default class Tickety {
   public async sendMessage(messageContent: String, authToken: string): Promise<any> {
 
     try {
-      const response = await fetch(`http://localhost:3000/api/tickety/sendMessage`, {
+      const response = await fetch(`https://www.tickety.dev/api/tickety/sendMessage`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
